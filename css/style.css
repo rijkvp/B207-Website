@@ -1,39 +1,26 @@
 .header
 {
     background-image: url('../img/bg1.jpg') !important;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-shadow: 5px 5px 5px black;
-
     border-radius: 0px;
 }
-.navbar
-{
-    background: rgba(92, 107, 115, 1);
 
-}
-.nav-link
-{
-    color: white !important;
-}
-.nav-link:hover
-{
-    color: grey !important;
-}
 
-.navbar-nav
+.img-responsive
 {
-
+    width: 14em;
 }
 
 
-
-
-
-.panel-body img
+.myrow .panel
 {
-    width: 10%;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 8px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px grey;
 }
