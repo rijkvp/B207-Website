@@ -107,3 +107,19 @@ p {
     margin-top: 20px;
     color:#9c9c9c;
 }
+
+.carousel-img
+{
+    display: block;
+    width: 100%;
+}
+
+.carousel-caption h1
+{
+    text-shadow: 2px 2px 10px black;
+}
+
+.carousel-caption p
+{
+    text-shadow: 2px 2px 10px black;
+}
