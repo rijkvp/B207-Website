@@ -18,6 +18,15 @@ p {
     size: 12px;
 }
 
+.active-dark
+{
+    background: rgb(47, 47, 47);
+}
+
+.active-light
+{
+    background: rgb(216, 216, 216);
+}
 
 .header
 {
