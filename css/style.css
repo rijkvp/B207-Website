@@ -8,9 +8,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h4, h5
+h1, h2, h3, h4, h5
 {
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 p {
@@ -100,6 +101,19 @@ p {
     margin: 5px 0px;
 }
 
+.link-div h3
+{
+    font-size: 1.1rem;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.link-div a
+{
+    display: block;
+    font-size: 0.9rem;
+    margin: 5px 0px;
+}
 
 .copyright
 {
@@ -122,4 +136,25 @@ p {
 .carousel-caption p
 {
     text-shadow: 2px 2px 10px black;
+}
+
+.container
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
 }
