@@ -25,7 +25,7 @@ p {
 
 .active-light
 {
-    background: rgb(216, 216, 216);
+    background: rgb(165, 165, 165);
 }
 
 .header
@@ -129,6 +129,7 @@ p {
     margin: 0px;
     margin-top: 20px;
     color:#9c9c9c;
+    font-size: 0.8rem;
 }
 
 .carousel-img
@@ -147,23 +148,30 @@ p {
     text-shadow: 2px 2px 10px black;
 }
 
+.jumbotron {
+    border-radius: 0px;
+}
+
+.themenavbar
+{
+    background: rgb(144, 144, 144);
+    color: white;
+}
+
+.themenavbar .nav-link:link, .themenavbar .navbar-brand:link,
+.themenavbar .nav-link:visited, .themenavbar .navbar-brand:visited
+{
+    color: white;
+} 
+
+.themenavbar .nav-link:active, .themenavbar .navbar-brand:active,
+.themenavbar .nav-link:hover, .themenavbar .navbar-brand:hover
+{
+    color: rgb(206, 206, 206);
+} 
+
 .container
 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-a:link {
-
-}
-
-a:visited {
-
-}
-
-a:hover {
-
-}
-
-a:active {
-
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
