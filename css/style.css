@@ -1,11 +1,28 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700&display=swap');
 
+:root {
+    --bg-color: #FFF;
+    --bg2-color: #e9ecef;
+    --header1-color: #343a40;
+    --header2-color: rgb(144, 144, 144);
+    --text-color: #212529;
+    --footer-bg-color: rgb(47, 50, 54);
+    --footer-header-color: rgb(124, 124, 138);
+    --footer-text-color: rgb(215, 215, 235);
+}
+
 *
 {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
 h1, h2, h3, h4, h5
@@ -39,12 +56,22 @@ p {
     border-radius: 0px;
 }
 
+#header1
+{
+    background-color: var(--header1-color);
+}
+
+.themenavbar
+{
+    background: rgb(144, 144, 144);
+    color: white;
+    background-color: var(--header2-color);
+}
 
 .img-responsive
 {
     width: 14em;
 }
-
 
 .myrow .panel
 {
@@ -80,8 +107,7 @@ p {
 
 #footer {
   width: 100%;
-  color: black;
-  background-color: rgb(47, 50, 54);
+  background-color: var(--footer-bg-color);
   text-align: center;
   margin-bottom: 0px !important;
 }
@@ -97,7 +123,7 @@ p {
 .footer-div h3
 {
     font-size: 16px;
-    color: rgb(124, 124, 138);
+    color: var(--footer-header-color);
     margin-bottom: 16px;
     font-weight: bold;
 }
@@ -105,7 +131,7 @@ p {
 .footer-div a
 {
     display: block;
-    color: rgb(215, 215, 235);
+    color: var(--footer-text-color);
     font-size: 12px;
     margin: 5px 0px;
 }
@@ -152,26 +178,34 @@ p {
     border-radius: 0px;
 }
 
-.themenavbar
-{
-    background: rgb(144, 144, 144);
-    color: white;
-}
-
 .themenavbar .nav-link:link, .themenavbar .navbar-brand:link,
 .themenavbar .nav-link:visited, .themenavbar .navbar-brand:visited
 {
     color: white;
-} 
+}
 
 .themenavbar .nav-link:active, .themenavbar .navbar-brand:active,
 .themenavbar .nav-link:hover, .themenavbar .navbar-brand:hover
 {
     color: rgb(206, 206, 206);
-} 
+}
 
 .container
 {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+
+.nav-item
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .nav-item
+    {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }
