@@ -1,15 +1,26 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700&display=swap');
 
+/*
+COLOR PALETTE
+1: #262626
+2: #6D8193
+3: #B5D3F4
+4: #F7FAFF
+*/
+
 :root {
-    --bg-color: #FFF;
-    --bg2-color: #e9ecef;
-    --header1-color: #343a40;
-    --header2-color: rgb(144, 144, 144);
+    --bg-color: #F7FAFF;
+    --bg2-color: rgb(240, 245, 255);
+    --header1-color: #262626;
+    --header2-color: #6D8193;
+    --header1-active: #7a7a7a;
+    --header2-active: rgb(150, 172, 192);
     --text-color: #212529;
-    --footer-bg-color: rgb(47, 50, 54);
+    --footer-bg-color: #262626;
     --footer-header-color: rgb(124, 124, 138);
     --footer-text-color: rgb(215, 215, 235);
+    --button-color: rgb(96, 132, 163);
 }
 
 *
@@ -19,10 +30,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.btn-info
+{
+    background: var(--button-color) !important;
+}
+
 body
 {
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
 }
 
 h1, h2, h3, h4, h5
@@ -37,12 +53,12 @@ p {
 
 .active-dark
 {
-    background: rgb(47, 47, 47);
+    background: var(--header1-active);
 }
 
 .active-light
 {
-    background: rgb(165, 165, 165);
+    background: var(--header2-active);
 }
 
 .header
@@ -61,9 +77,13 @@ p {
     background-color: var(--header1-color);
 }
 
+nav
+{
+    background: var(--header1-color);
+}
+
 .themenavbar
 {
-    background: rgb(144, 144, 144);
     color: white;
     background-color: var(--header2-color);
 }
@@ -176,6 +196,7 @@ p {
 
 .jumbotron {
     border-radius: 0px;
+    background: var(--bg2-color);
 }
 
 .themenavbar .nav-link:link, .themenavbar .navbar-brand:link,
