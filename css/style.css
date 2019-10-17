@@ -10,17 +10,19 @@ COLOR PALETTE
 */
 
 :root {
-    --bg-color: #F7FAFF;
-    --bg2-color: rgb(240, 245, 255);
-    --header1-color: #262626;
-    --header2-color: #6D8193;
-    --header1-active: #7a7a7a;
-    --header2-active: rgb(150, 172, 192);
+    --bg-color: #E8F1F2;
+    --bg2-color: rgb(194, 201, 202);
+    --header1-color: #011627;
+    --header2-color: #2D80C4;
+    --header1-active: rgb(42, 81, 117);
+    --header2-active: #0381bb;
     --text-color: #212529;
-    --footer-bg-color: #262626;
+    --text-color-2: #1B98E0;
+    --footer-bg-color: #011627;
     --footer-header-color: rgb(124, 124, 138);
     --footer-text-color: rgb(215, 215, 235);
-    --button-color: rgb(96, 132, 163);
+    --button-color: rgb(94, 156, 219);
+    --button-hover-color: rgb(65, 115, 165);
 }
 
 *
@@ -33,6 +35,24 @@ COLOR PALETTE
 .btn-info
 {
     background: var(--button-color) !important;
+}
+
+.btn-info:hover
+{
+    background: var(--button-hover-color) !important;
+}
+
+.btn
+{
+    padding: 4px 0px;
+    margin: 4px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: block;
+    max-width: 180px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 1rem;
 }
 
 body
@@ -77,9 +97,40 @@ p {
     background-color: var(--header1-color);
 }
 
+
+
+.carousel-caption
+{
+    padding-bottom: 0px;
+    bottom: 0px;
+}
 nav
 {
     background: var(--header1-color);
+}
+
+.navbar{
+    padding: .5rem 12rem;
+}
+
+
+#footer {
+    width: 100%;
+    background-color: var(--footer-bg-color);
+    text-align: center;
+    margin-bottom: 0px !important;
+    padding: 0px 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar
+    {
+        padding: .5rem .5rem;
+    }
+    #footer
+    {
+        padding: 0px 10px;
+    }
 }
 
 .themenavbar
@@ -96,10 +147,9 @@ nav
 .myrow .panel
 {
     border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 4px;
+    border-radius: 6px;
     padding: 8px;
     margin: 10px;
-    box-shadow: 2px 2px 10px grey;
 }
 
 .myrow .panel-heading
@@ -107,6 +157,9 @@ nav
     font-weight: bold;
     margin-bottom: 4px;
     font-family: 'Raleway', sans-serif;
+    color: var(--text-color-2);
+    font-size: 1.1rem;
+    right: 4px;
 }
 
 .myrow .panel-footer
@@ -115,22 +168,8 @@ nav
     display: block;
 }
 
-.myrow .btn
-{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    display: block;
-    max-width: 140px;
-    text-align: center;
-    border-radius: 0px;
-}
 
-#footer {
-  width: 100%;
-  background-color: var(--footer-bg-color);
-  text-align: center;
-  margin-bottom: 0px !important;
-}
+
 
 .footer-content
 {
@@ -216,7 +255,6 @@ nav
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
 
 .nav-item
 {
