@@ -11,7 +11,7 @@ COLOR PALETTE
 
 :root {
     --bg-color: #E8F1F2;
-    --bg2-color: rgb(194, 201, 202);
+    --bg2-color: rgb(206, 217, 218);
     --header1-color: #011627;
     --header2-color: #2D80C4;
     --header1-active: rgb(42, 81, 117);
@@ -44,17 +44,23 @@ COLOR PALETTE
 
 .btn
 {
-    padding: 4px 0px;
+    padding: 4px 6px;
     margin: 4px 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: bold;
     display: block;
     max-width: 180px;
-    text-align: center;
-    border-radius: 2px;
+    border-radius: 4px;
     font-size: 1rem;
+    text-align: left;
 }
 
+.btn-center
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 body
 {
     background-color: var(--bg-color) !important;
@@ -146,20 +152,30 @@ nav
 
 .myrow .panel
 {
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
-    padding: 8px;
+    padding: 14px 20px;
     margin: 10px;
+}
+
+.panel-border
+{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    
+    padding: 14px 20px;
 }
 
 .myrow .panel-heading
 {
     font-weight: bold;
-    margin-bottom: 4px;
     font-family: 'Raleway', sans-serif;
     color: var(--text-color-2);
     font-size: 1.1rem;
-    right: 4px;
+    margin-bottom: 10px;
+    /* right: 10px; */
 }
 
 .myrow .panel-footer
@@ -195,6 +211,11 @@ nav
     margin: 5px 0px;
 }
 
+.link-div
+{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0px;
+}
 .link-div h3
 {
     font-size: 1.1rem;
@@ -206,7 +227,9 @@ nav
 {
     display: block;
     font-size: 0.9rem;
-    margin: 5px 0px;
+    margin-top: -1px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 6px 0px;
 }
 
 .copyright
