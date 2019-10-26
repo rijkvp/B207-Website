@@ -22,6 +22,7 @@ COLOR PALETTE
     --footer-text-color: #9c9c9c;
     --button-color: rgb(94, 156, 219);
     --button-hover-color: rgb(65, 115, 165);
+    --footer-height: 41px;
 }
 
 *
@@ -30,6 +31,23 @@ COLOR PALETTE
     padding: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
+html
+{
+    height: 100%;
+}
+
+body
+{
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+
+    /* Sticky footer */
+    min-height:100%; 
+    position:relative; 
+    padding-bottom: var(--footer-height);
+}
+
 
 .btn-info
 {
@@ -68,11 +86,7 @@ COLOR PALETTE
     border-radius: 4px;
     font-size: 1rem;
 }
-body
-{
-    background-color: var(--bg-color) !important;
-    color: var(--text-color) !important;
-}
+
 
 h1, h2, h3, h4, h5
 {
@@ -135,6 +149,10 @@ nav
     margin-bottom: 0px !important;
     font-size: 0.9rem;
     color:var(--footer-text-color);
+    /* Sticky footer */
+    position: absolute; 
+    left: 0 ; right: 0; bottom: 0; 
+    height: var(--footer-height);
 }
 
 @media only screen and (max-width: 600px) {
