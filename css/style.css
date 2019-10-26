@@ -17,10 +17,9 @@ COLOR PALETTE
     --header1-active: rgb(42, 81, 117);
     --header2-active: #0381bb;
     --text-color: #212529;
-    --text-color-2: #1B98E0;
+    --text-color-2: rgb(44, 89, 116);
     --footer-bg-color: #011627;
-    --footer-header-color: rgb(124, 124, 138);
-    --footer-text-color: rgb(215, 215, 235);
+    --footer-text-color: #9c9c9c;
     --button-color: rgb(94, 156, 219);
     --button-hover-color: rgb(65, 115, 165);
 }
@@ -60,6 +59,14 @@ COLOR PALETTE
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+.button
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    font-size: 1rem;
 }
 body
 {
@@ -122,10 +129,12 @@ nav
 
 #footer {
     width: 100%;
+    padding: 10px 0px;
     background-color: var(--footer-bg-color);
     text-align: center;
     margin-bottom: 0px !important;
-    padding: 0px 400px;
+    font-size: 0.9rem;
+    color:var(--footer-text-color);
 }
 
 @media only screen and (max-width: 600px) {
@@ -175,7 +184,6 @@ nav
     color: var(--text-color-2);
     font-size: 1.1rem;
     margin-bottom: 10px;
-    /* right: 10px; */
 }
 
 .myrow .panel-footer
@@ -184,60 +192,28 @@ nav
     display: block;
 }
 
-
-
-
-.footer-content
+.linkrow .panel
 {
-    margin-left: 2em;
-    margin-right: 2em;
-    padding-top: 20px;
-    padding-bottom: 6px;
+    padding: 14px 20px;
+    margin: 10px;
 }
 
-.footer-div h3
+.linkrow .panel-heading
 {
-    font-size: 16px;
-    color: var(--footer-header-color);
-    margin-bottom: 16px;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
-.footer-div a
+.linkrow .panel-body a
 {
     display: block;
-    color: var(--footer-text-color);
-    font-size: 12px;
-    margin: 5px 0px;
-}
-
-.link-div
-{
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    padding: 0px;
-}
-.link-div h3
-{
-    font-size: 1.1rem;
-    margin-bottom: 16px;
-    font-weight: bold;
-}
-
-.link-div a
-{
-    display: block;
-    font-size: 0.9rem;
-    margin-top: -1px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    padding: 6px 0px;
 }
 
 .copyright
 {
-    margin: 0px;
-    margin-top: 20px;
-    color:#9c9c9c;
-    font-size: 0.8rem;
+    
 }
 
 .carousel-img
@@ -259,6 +235,16 @@ nav
 .jumbotron {
     border-radius: 0px;
     background: var(--bg2-color);
+}
+
+.jumbotron h1 {
+    font-size: 3.6rem;
+}
+
+.jumbotron p
+{
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .themenavbar .nav-link:link, .themenavbar .navbar-brand:link,
