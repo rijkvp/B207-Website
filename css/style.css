@@ -242,7 +242,11 @@ nav
 .jumbotron h1 {
     font-size: 3.6rem;
 }
-
+@media only screen and (max-width: 400px) {
+    .jumbotron h1 {
+        font-size: 2.6rem;
+    }
+}
 .jumbotron p
 {
     font-style: normal;
