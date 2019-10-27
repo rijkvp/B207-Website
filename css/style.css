@@ -1,14 +1,6 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700&display=swap');
 
-/*
-COLOR PALETTE
-1: #262626
-2: #6D8193
-3: #B5D3F4
-4: #F7FAFF
-*/
-
 :root {
     --bg-color: #E8F1F2;
     --bg2-color: rgb(206, 217, 218);
@@ -59,17 +51,20 @@ body
     background: var(--button-hover-color) !important;
 }
 
+.panel
+{
+    padding: 0px 30px;
+}
+
 .btn
 {
-    padding: 4px 6px;
-    margin: 4px 10px;
+    margin: 4px 0px;
+    padding: 4px 10px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
-    display: block;
-    max-width: 180px;
+    display: inline-block;
     border-radius: 4px;
     font-size: 1rem;
-    text-align: left;
 }
 
 .btn-center
@@ -98,16 +93,6 @@ p {
     size: 12px;
 }
 
-.active-dark
-{
-    background: var(--header1-active);
-}
-
-.active-light
-{
-    background: var(--header2-active);
-}
-
 .header
 {
     background-image: url('../img/bg1.jpg') !important;
@@ -124,8 +109,6 @@ p {
     background-color: var(--header1-color);
 }
 
-
-
 .carousel-caption
 {
     padding-bottom: 0px;
@@ -136,7 +119,7 @@ nav
     background: var(--header1-color);
 }
 
-.navbar{
+.navbar {
     padding: .5rem 12rem;
 }
 
@@ -162,13 +145,13 @@ nav
     }
     #footer
     {
-        padding: 0px 10px;
+        padding: 10px 0px;
+        font-size: 0.7rem;
     }
 }
 
-.themenavbar
+.secondnavbar
 {
-    color: white;
     background-color: var(--header2-color);
 }
 
@@ -253,6 +236,7 @@ nav
 .jumbotron {
     border-radius: 0px;
     background: var(--bg2-color);
+    padding: 2rem 2rem;
 }
 
 .jumbotron h1 {
