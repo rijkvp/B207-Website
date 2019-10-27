@@ -1,19 +1,22 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700&display=swap');
 
+/* Variables */
 :root {
     --bg-color: #E8F1F2;
     --bg2-color: rgb(206, 217, 218);
+
     --header1-color: #011627;
     --header2-color: #2D80C4;
-    --header1-active: rgb(42, 81, 117);
-    --header2-active: #0381bb;
+    
     --text-color: #212529;
     --text-color-2: rgb(44, 89, 116);
-    --footer-bg-color: #011627;
-    --footer-text-color: #9c9c9c;
+
     --button-color: rgb(94, 156, 219);
     --button-hover-color: rgb(65, 115, 165);
+    
+    --footer-bg-color: #011627;
+    --footer-text-color: #9c9c9c;
     --footer-height: 41px;
 }
 
@@ -40,20 +43,10 @@ body
     padding-bottom: var(--footer-height);
 }
 
-
-.btn-info
+h1, h2, h3, h4, h5
 {
-    background: var(--button-color) !important;
-}
-
-.btn-info:hover
-{
-    background: var(--button-hover-color) !important;
-}
-
-.panel
-{
-    padding: 0px 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 .btn
@@ -67,6 +60,11 @@ body
     font-size: 1rem;
 }
 
+/* No need for the LoVe HAte rule here because bootstrap does already do that */
+.btn-info { background: var(--button-color) !important; }
+
+.btn-info:hover { background: var(--button-hover-color) !important; }
+
 .btn-center
 {
     text-align: center;
@@ -74,6 +72,7 @@ body
     margin-right: auto;
 }
 
+/* Other kind of button style */
 .button
 {
     font-family: 'Raleway', sans-serif;
@@ -82,47 +81,37 @@ body
     font-size: 1rem;
 }
 
-
-h1, h2, h3, h4, h5
-{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-}
-
-p {
-    size: 12px;
-}
-
-.header
-{
-    background-image: url('../img/bg1.jpg') !important;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-shadow: 5px 5px 5px black;
-    border-radius: 0px;
-}
-
-#header1
-{
-    background-color: var(--header1-color);
-}
-
+/* Slidehow/carousel styling */
 .carousel-caption
 {
     padding-bottom: 0px;
     bottom: 0px;
 }
-nav
+
+.carousel-img
 {
-    background: var(--header1-color);
+    display: block;
+    width: 100%;
 }
 
+.carousel-caption h1
+{
+    text-shadow: 2px 2px 10px #000;
+}
+
+.carousel-caption p
+{
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* Navigation menu colors */
+nav { background: var(--header1-color); }
+.secondnavbar { background-color: var(--header2-color); }
+
+/* Resonsive navbar & footer */
 .navbar {
     padding: .5rem 12rem;
 }
-
 
 #footer {
     width: 100%;
@@ -150,9 +139,17 @@ nav
     }
 }
 
-.secondnavbar
+.nav-item
 {
-    background-color: var(--header2-color);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .nav-item
+    {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }
 
 .img-responsive
@@ -160,7 +157,19 @@ nav
     width: 14em;
 }
 
-.myrow .panel
+/* Different types of containers, panels & rows */ 
+.container
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.panel
+{
+    padding: 0px 30px;
+}
+
+.panelrow .panel
 {
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
@@ -169,16 +178,7 @@ nav
     margin: 10px;
 }
 
-.panel-border
-{
-    border: 1px solid rgba(0, 0, 0, 0.3);
-    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
-    border-radius: 6px;
-    
-    padding: 14px 20px;
-}
-
-.myrow .panel-heading
+.panelrow .panel-heading
 {
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
@@ -187,7 +187,7 @@ nav
     margin-bottom: 10px;
 }
 
-.myrow .panel-footer
+.panelrow .panel-footer
 {
     margin-top: 20px;
     display: block;
@@ -212,27 +212,7 @@ nav
     display: block;
 }
 
-.copyright
-{
-    
-}
-
-.carousel-img
-{
-    display: block;
-    width: 100%;
-}
-
-.carousel-caption h1
-{
-    text-shadow: 2px 2px 10px black;
-}
-
-.carousel-caption p
-{
-    text-shadow: 2px 2px 10px black;
-}
-
+/* Jumotron at the top of the content */
 .jumbotron {
     border-radius: 0px;
     background: var(--bg2-color);
@@ -251,35 +231,4 @@ nav
 {
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
-}
-
-.themenavbar .nav-link:link, .themenavbar .navbar-brand:link,
-.themenavbar .nav-link:visited, .themenavbar .navbar-brand:visited
-{
-    color: white;
-}
-
-.themenavbar .nav-link:active, .themenavbar .navbar-brand:active,
-.themenavbar .nav-link:hover, .themenavbar .navbar-brand:hover
-{
-    color: rgb(206, 206, 206);
-}
-
-.container
-{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.nav-item
-{
-    margin-right: 10px;
-    margin-left: 10px;
-}
-@media only screen and (max-width: 600px) {
-  .nav-item
-    {
-        margin-right: 0px;
-        margin-left: 0px;
-    }
 }
