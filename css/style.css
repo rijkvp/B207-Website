@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700|Roboto:400,700&display=swap');
 
 /* Variables */
 :root {
@@ -7,12 +7,12 @@
     --bg2-color: rgb(206, 217, 218);
 
     --header1-color: #011627;
-    --header2-color: #2D80C4;
+    --header2-color: rgb(22, 94, 153);
     
     --text-color: #212529;
     --text-color-2: rgb(44, 89, 116);
 
-    --button-color: rgb(94, 156, 219);
+    --button-color: rgb(68, 161, 238);
     --button-hover-color: rgb(65, 115, 165);
     
     --footer-bg-color: #011627;
@@ -144,6 +144,29 @@ nav { background: var(--header1-color); }
     margin-right: 10px;
     margin-left: 10px;
 }
+
+/* Navbar fonts */
+nav
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.navbar-brand
+{
+    font-weight: 700;
+}
+
+/* LoVe HAte rule for the nav-links */
+.nav-link:link, .nav-link:visited
+{
+    font-weight: 600;
+}
+.nav-link:hover, .nav-link:active
+{
+    font-weight: bold;
+    color: #bbbbbb;
+}
+
 @media only screen and (max-width: 600px) {
   .nav-item
     {
@@ -231,4 +254,20 @@ nav { background: var(--header1-color); }
 {
     font-style: normal;
     color: rgba(0, 0, 0, 0.8);
+}
+
+/* Footer links - LoVe HAte rule */
+#footer a:link, #footer a:visited
+{
+    color: #e2e2e2;
+}
+#footer a:hover
+{
+    text-decoration: underline;
+    color: #757575;
+}
+#footer a:active
+{
+    text-decoration: none;
+    color: #575757;
 }
