@@ -1,5 +1,6 @@
 <?php
-
-
-    echo 'TEST 2!'
+    require "head.php";
+    require "slideshow.php";
+    require "navigation.php";
+    require "footer.php";
 ?>
