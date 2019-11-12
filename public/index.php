@@ -21,7 +21,7 @@
                     <div class="panel-body">
                         <img class="img-responsive" src="img/github.png" alt="HTML 5">
                         <div class="panel-footer">
-                            <a href="themas/accounts.html" class="button">Ga naar Accounts</a>
+                            <a href="themas/accounts.php" class="button">Ga naar Accounts</a>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     <div class="panel-body">
                         <img class="img-responsive" src="img/html_css.png" alt="HTML & CSS">
                         <div class="panel-footer">
-                            <a href="themas/html_css.html" class="button" >Ga naar HTML & CSS</a>
+                            <a href="themas/html_css.php" class="button" >Ga naar HTML & CSS</a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                     <div class="panel-body">
                         <img class="img-responsive" src="img/js.png" alt="JavaScript">
                         <div class="panel-footer">
-                            <a href="themas/js.html" class="button" >Ga naar JavaScript</a>
+                            <a href="themas/js.php" class="button" >Ga naar JavaScript</a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                     <div class="panel-body">
                         <img class="img-responsive" src="img/php_sql.png" alt="PHP & SQL">
                         <div class="panel-footer">
-                            <a href="themas/php_sql.html" class="button" >Ga naar PhP & MySQL</a>
+                            <a href="themas/php_sql.php" class="button" >Ga naar PhP & MySQL</a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                     <div class="panel-body">
                         <img class="img-responsive" src="img/birds.jpg" alt="Modelleren">
                         <div class="panel-footer">
-                            <a href="themas/modelleren.html" class="button" >Ga naar Modelleren</a>
+                            <a href="themas/modelleren.php" class="button" >Ga naar Modelleren</a>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                     <div class="panel-body">
                         <img class="img-responsive" src="img/cyber_security.jpg" alt="Cyber Security">
                         <div class="panel-footer">
-                            <a href="themas/cyber_security.html" class="button" >Ga naar Cyber Security</a>
+                            <a href="themas/cyber_security.php" class="button" >Ga naar Cyber Security</a>
                         </div>
                     </div>
                 </div>

@@ -6,9 +6,11 @@
     --bg-color: #E8F1F2;
     --bg2-color: rgb(206, 217, 218);
 
-    --header1-color: #011627;
-    --header2-color: rgb(22, 94, 153);
-    
+    --navbar-color: #002442;
+    --navbar-text-color: rgba(255,255,255,0.5);
+    --navbar-hover-color: #eeeeee;
+    --navbar-active-color: white;
+
     --text-color: #212529;
     --text-color-2: rgb(44, 89, 116);
 
@@ -105,8 +107,7 @@ h1, h2, h3, h4, h5
 }
 
 /* Navigation menu colors */
-nav { background: var(--header1-color); }
-.secondnavbar { background-color: var(--header2-color); }
+nav { background: var(--navbar-color); }
 
 /* Resonsive navbar & footer */
 .navbar {
@@ -145,6 +146,33 @@ nav { background: var(--header1-color); }
     margin-left: 10px;
 }
 
+/* Dropdown Styling */
+
+.dropdown-menu { 
+    background: var(--navbar-color);
+    border: none;
+}
+
+.dropdown-item.active {
+    font-weight: bold;  
+    background: var(--navbar-color);
+    color: var(--navbar-active-color); 
+}
+
+/* Dropdown LoVe HAte rule */
+.dropdown-item:link, .dropdown-item:visited { 
+    color: var(--navbar-text-color);
+    font-weight: 600;
+}
+
+.dropdown-item:hover, .dropdown-item:active { 
+    background: var(--navbar-color);
+    font-weight: bold;
+    color: var(--navbar-hover-color);
+}
+
+
+
 /* Navbar fonts */
 nav
 {
@@ -164,7 +192,7 @@ nav
 .nav-link:hover, .nav-link:active
 {
     font-weight: bold;
-    color: #bbbbbb;
+    color: var(--navbar-hover-color);
 }
 
 @media only screen and (max-width: 600px) {
