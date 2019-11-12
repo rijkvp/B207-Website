@@ -3,3 +3,15 @@
     padding: 0px;
     margin: 0px;
 }
+
+code::before {
+    font-family: sans-serif;
+    content: "Code:";
+    font-size: 28px;
+    font-weight: bold;
+    display: block;
+}
+
+code {
+    font-family: monospace;
+}
