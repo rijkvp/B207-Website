@@ -1,6 +1,6 @@
 <?php
     require "../head_themes.php";
-    head("Accounts");
+    head("HTML & CSS");
 ?>
   <body>
     <?php 

@@ -14,7 +14,7 @@ function head(string $pageTitle)
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
       <!-- Own CSS -->
       <link rel="stylesheet" type="text/css" href="../css/style.css">';
-    echo '<title>B207.nl - Thema - '.$pageTitle.'</title>
+    echo '<title>B207.nl - Thema&apos;s - '.$pageTitle.'</title>
       <!-- Favicon -->
       <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
