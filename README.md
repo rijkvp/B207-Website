@@ -1,4 +1,4 @@
-# B207 Lessen
+# B207 Website
 
 New design for b207.nl with bootstrap 4.
 GitHub Pages isn't working anymore with PHP.
