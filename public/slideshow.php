@@ -11,9 +11,16 @@
         <div class="carousel-item">
             <div class="carousel-caption">
                 <h1>HTML & CSS</h1>
-                <p>Programmeer je eigen websites!</p>
+                <p>Bouw je eigen websites!</p>
             </div>
             <img class="carousel-img" src="img/bg5.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+            <div class="carousel-caption">
+                <h1>JavaScript</h1>
+                <p>Interactiviteit en animaties voor op websites.</p>
+            </div>
+            <img class="carousel-img" src="img/bg7.jpg" alt="Second slide">
         </div>
         <div class="carousel-item">
             <div class="carousel-caption">

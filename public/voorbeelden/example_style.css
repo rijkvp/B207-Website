@@ -4,7 +4,25 @@
     margin: 0px;
 }
 
-code::before {
+body
+{
+    margin: 2% 10%;
+}
+
+.thememenu ul
+{
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.thememenu ul li
+{
+    display: inline;
+    padding: 0 20px;
+}
+
+code::before {    
+    margin-top: 40px;
     font-family: sans-serif;
     content: "Code:";
     font-size: 28px;
