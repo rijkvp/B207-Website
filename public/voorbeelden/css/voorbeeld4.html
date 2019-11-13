@@ -17,14 +17,19 @@
     <style>
         main {
             width: 50%;
-            margin: auto;
+            margin: 10%;
         }
         .vullen {
             width: 100%;
         }
-        .midden {
+        .klein {
             width: 200px;
-
+        }
+        .midden {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
         }
     </style>
   </head>
@@ -40,8 +45,31 @@
     </nav>  
     <main>
         <h1>Met width: 100%; vult het plaatje de parent over de breedte:</h1>
-        <img class="vullen" src="https://picsum.photos/2010">
+        <img class="vullen" src="https://picsum.photos/512">
+        <h3>Met width: 200px is de breedte altijd 200 pixels:</h3>
+        <img class="klein" src="https://picsum.photos/512">
+        <h3>Met <i>display: block ;margin-left: auto; en margin-right: auto;</i> komt het plaatje in het midden van de div</h3>
+        <div>
+            <img class="midden" src="https://picsum.photos/512">
+        </div>
         <code>
+            main {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;width: 50%;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;margin: 10%;<br>
+            }<br>
+            .vullen {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;width: 100%;<br>
+            }<br>
+            .klein {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;width: 200px;<br>
+            }<br>
+            .midden {<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;display: block;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;margin-left: auto;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;margin-right: auto;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;width: 400px;<br>
+            }<br>
+        </code>
     </main>
   </body>
 </html>
