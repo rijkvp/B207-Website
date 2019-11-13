@@ -7,6 +7,7 @@ Please clone/download & run with an PHP server.
 ## Todo
 
 - [x] More images on the slideshow
+- [ ] Fix icon on examples
 - [ ] Code Examples
 - [ ] Spell check
 - [ ] Remove unused images
