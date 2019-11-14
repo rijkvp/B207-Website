@@ -16,8 +16,8 @@
         <h5>Afbeeldingen</h5>
         <p>Stockfoto's door <a href="https://unsplash.com/">Unsplash</a>. <br> De andere plaatjes zijn allemaal logo's. 
             <br> Voor het icoontje heb ik <a href="https://realfavicongenerator.net">Real Favicon Generator</a> gebruikt.</p>
-        <h5>Foto's</h5>
-        <p>De code is helemaal zelf geschreven. Veel dingen zijn via bootstrap gedaan.
+        <h5>Code</h5>
+        <p>De code is helemaal zelf geschreven. Veel dingen zijn via bootstrap en PHP gedaan.
             Sommige kleine stukjes zijn van <a href="https://www.w3schools.com/bootstrap4/">W3 Schools Bootstrap 4</a> gekopieerd en dan vervolgens aangepast aan eigen wens. 
         Ook heb ik een paar kleine trucjes van <a href="https://css-tricks.com/">CSS-Tricks</a> gebruikt.</p>
         <p>Ik ben gewend om namen en commentaar in de code in het Engels te schrijven. Dat heb ik ook in dit project gedaan.</p>
