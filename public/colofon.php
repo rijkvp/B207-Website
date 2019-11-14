@@ -31,7 +31,7 @@
                 <img src="img/html5_badge.png" alt="Valid HTML!" height="31" width="88" />
             </a>
             <!-- w3 Validator CSS Bagde -->
-            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frijk-van-putten.github.io%2FB207-Website%2Fcss%2Fstyle.css&profile=css3svg">
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frijk-van-putten.github.io%2FB207-Website%2Fpublic%2Fcss%2Fstyle.css">
                 <img style="border:0;width:88px;height:31px"
                     src="http://jigsaw.w3.org/css-validator/images/vcss"
                     alt="Valid CSS!" />
