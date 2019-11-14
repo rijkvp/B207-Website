@@ -6,28 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>CSS Voorbeeld</title>
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
-    <link rel="manifest" href="icon/site.webmanifest">
-    <link rel="mask-icon" href="icon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../icon/favicon-16x16.png">
+    <link rel="manifest" href="../../icon/site.webmanifest">
+    <link rel="mask-icon" href="../../icon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" type="text/css" href="../example_style.css">
     <style>
-        a:link {
+        /* Normale kleur rood */
+        main a:link {
             color: red;
         }
-
-        a:visited {
-            color: yellow;
+        /* Wordt geelbruin als de link gebruikt is */
+        main a:visited {
+            color: #9c8f1a;
         }
-
-        a:hover {
+        /* Groen als de muis erover gaat */
+        main a:hover {
             color: green;
         }
-
-        a:active {
+        /* Blauw als er op geklikt wordt */
+        main a:active {
             color: blue;
         }
     </style>
@@ -35,6 +36,7 @@
   <body>
     <nav class="thememenu">
         <ul>
+            <li><a href="../../index.php">Terug naar home-pagina</a></li>            
             <li><a href="voorbeeld1.html">1. Box Model</a></li>
             <li><a href="voorbeeld2.html">2. Google Fonts</a></li>
             <li><a href="voorbeeld3.html">3. Navigatie menu</a></li>
@@ -43,7 +45,29 @@
         </ul>
     </nav>  
     <main>
-        <a href="#">Dit isdsf eem link</a>
+        <a href="#link1">Dit is een link.</a>
+        <br>
+        <a href="#link2">Dit is een andere link.</a>
+        <br>
+        <a href="#link3">Dit is nog een andere link.</a>
+        <code>
+        /* Normale kleur rood */<br>
+        main a:link {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;color: red;<br>
+        }<br>
+        /* Wordt geelbruin als de link gebruikt is */<br>
+        main a:visited {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;color: #9c8f1a;<br>
+        }<br>
+        /* Groen als de muis erover gaat */<br>
+        main a:hover {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;color: green;<br>
+        }<br>
+        /* Blauw als er op geklikt wordt */<br>
+        main a:active {<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;color: blue;<br>
+        }<br>
+        </code>
     </main>
   </body>
 </html>
