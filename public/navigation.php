@@ -4,7 +4,7 @@ function displayNav(string $activeMenu)
     echo '
     <!-- Navigation menu -->
     <nav class="navbar navbar-expand-sm navbar-dark">
-        <a class="navbar-brand" href="index.html">B207.nl</a>
+        <a class="navbar-brand" href="index.php">B207.nl</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
