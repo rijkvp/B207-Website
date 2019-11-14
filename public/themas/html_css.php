@@ -9,7 +9,7 @@
     ?>
     <div class="jumbotron text-center">
         <h1>HTML & CSS</h1>
-        <p>Bouw je eigen website!</p>
+        <p>Bouw je eigen website met HTML & CSS.</p>
     </div>
     <div class="container">
         <div class="row panel">

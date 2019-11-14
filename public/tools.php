@@ -9,7 +9,6 @@
     ?>
     <div class="jumbotron text-center">
         <h1>Tools</h1>
-        <p>Maak het leven makkerijker met gratis hulpmiddelen.</p>
     </div>
     <div class="container">
         <div class="row panelrow">

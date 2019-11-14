@@ -10,7 +10,7 @@
     ?>
     <div class="container">
         <h1>Welkom op B207.nl!</h1>
-        <h5>Op deze website kan je allerlei informatie vinden over het vak informatica.</h5>
+        <p>Op deze website kan je allerlei informatie vinden over het vak informatica!</p>
     </div>
      <!-- Theme panels-->
      <div class="container">

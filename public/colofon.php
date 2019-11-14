@@ -9,7 +9,6 @@
     ?>
       <div class="jumbotron text-center">
         <h1>Colofon</h1>
-        <p>Hoe deze website tot stand is gekomen.</p>
     </div>
     <div class="container">
         <h5>Ontwikkeling & Design</h5>
