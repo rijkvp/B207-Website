@@ -4,12 +4,11 @@ New design for b207.nl with bootstrap 4.
 GitHub Pages isn't working anymore with PHP.
 Please clone/download & run with an PHP server.
 
-## Todo
+## To-Do
 
 - [x] More images on the slideshow
-- [ ] Fix icon on examples
-- [ ] Code Examples
+- [x] Fix icon on examples
+- [x] Code Examples
+- [x] Remove unused images
 - [ ] Spell check
-- [ ] Remove unused images
-- [ ] Fix dead link
-
+- [ ] Fix dead links
